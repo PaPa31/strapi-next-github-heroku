@@ -1,29 +1,45 @@
 {
   "dependencies": {
+    "3": "^2.1.0",
+    "-": "^0.0.1",
     "@apollo/react-components": "^3.1.5",
     "@apollo/react-hooks": "^3.1.5",
     "@apollo/react-ssr": "^3.1.5",
     "@types/react": "^16.9.35",
     "apollo-boost": "^0.4.9",
+    "apollo-cache": "^1.3.2",
     "apollo-client": "^2.6.10",
+    "apollo-link": "^1.2.12",
+    "apollo-utilities": "^1.3.2",
     "bootstrap": "^4.5.0",
     "express": "^4.16.4",
-    "graphql": "^14.6.0",
+    "graphql": "^15.1.0",
+    "graphql-tag": "^2.10.3",
+    "jquery": "1.9.1",
     "js-cookie": "^2.2.1",
     "jwt-decode": "^2.2.0",
     "next": "^9.0.6",
     "next-apollo": "^3.1.5",
+    "popper.js": "^1.16.0",
     "react": "^16.13.1",
     "react-apollo": "^3.1.5",
-    "react-dom": "^16.13.1",
+    "react-dom": "^16.6.1",
     "react-stripe-elements": "^6.1.2",
     "reactstrap": "^8.4.1",
     "recompose": "^0.30.0",
     "strapi-sdk-javascript": "^0.3.3"
   },
+  "name": "frontend",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A Next application",
   "scripts": {
     "dev": "node server.js",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "NODE_ENV=production node server.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
   }
 }
