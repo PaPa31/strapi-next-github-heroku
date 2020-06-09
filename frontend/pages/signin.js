@@ -58,7 +58,7 @@ class SignIn extends React.Component {
           <Col sm="12" md={{ size: 5, offset: 3 }}>
             <div className="paper">
               <div className="header">
-                <img src="https://strapi.io/assets/images/logo.png" />
+                <img src="https://strapi.io/assets/strapi-logo-dark.png" />
               </div>
               <section className="wrapper">
                 <div className="notification">{error}</div>
